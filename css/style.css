@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Smooch Sans', sans-serif;
+
+}
+body{
+  background-color: #5a0c05;
+}
+
+.container {
+  color: #fcf6ef;
+  border-radius: 10px;
+  background-color: black;
+
+}
+#email,#password,#ten,#sdt{
+
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 0px;
+}
+#loginEmail,#loginPassword{
+
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 0px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  background-color: #5a0c05;
+  color: #fcf6ef;
+
+
+ 
+}

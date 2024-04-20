@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap-4.0.0-dist (1)/css/bootstrap.min.css">
+    <script src="../bootstrap-4.0.0-dist (1)/js/jquery-3.7.1.min.js"></script>
+    <script src="../bootstrap-4.0.0-dist (1)/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&family=Ephesis&family=Roboto:wght@300&family=Smooch+Sans:wght@100;200;400&display=swap" rel="stylesheet">
+
+
+</head>
+<body style="background-color: #5a0c05;">
+
+  <div class="container style=" style="width: 500px; margin-top:8%; ">
+    <h2 class="text-center mb-4 tenform">ĐĂNG NHẬP</h2>
+    <form id="loginForm">
+        <div class="form-group">
+            <label for="loginEmail">Email:</label>
+            <input type="email" class="form-control" id="loginEmail" placeholder="Nhập email" >
+            <span id="loginEmailError" style="color: red;">(*)</span>
+        </div>
+        <div class="form-group">
+            <label for="loginPassword">Mật khẩu:</label>
+            <input type="password" class="form-control" id="loginPassword" placeholder="Nhập mật khẩu" >
+            <span id="loginPasswordError" style="color: red;">(*)</span>
+        </div>
+        <button type="submit" class="btn mb-5">Đăng nhập</button>
+    </form>
+</div>
+<script src="../js/DN.js"></script>
+</body>
+</html>

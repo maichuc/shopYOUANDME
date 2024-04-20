@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap-4.0.0-dist (1)/css/bootstrap.min.css">
+    <script src="../bootstrap-4.0.0-dist (1)/js/jquery-3.7.1.min.js"></script>
+    <script src="../bootstrap-4.0.0-dist (1)/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&family=Ephesis&family=Roboto:wght@300&family=Smooch+Sans:wght@100;200;400&display=swap" rel="stylesheet">
+
+</head>
+<body style="background-color: #5a0c05;">
+
+    <div class="container"style="width: 500px; margin-top:8%; ">
+        <h2 class="text-center mb-4 tenform">ĐĂNG KÝ</h2>
+        <form id="registerForm" >
+        
+        <div class="form-group">
+            <label for="ten">Tên:</label>
+            <input type="text" class="form-control" id="ten" placeholder="Nhập tên" required>
+            <span id="tenError" style="color: red;">(*)</span>
+        </div>
+        <div class="form-group">
+            <label for="sdt">Số điện thoại:</label>
+            <input type="tel" class="form-control" id="sdt" placeholder="Nhập số điện thoại(09|03|07|08XXXXXXXX)" required>
+            <span id="sdtError" style="color: red;">(*)</span>
+        </div>
+
+        <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Nhập email" required>
+                <span id="emailError" style="color: red;">(*)</span>
+            </div>
+            <div class="form-group">
+                <label for="password">Mật khẩu:</label>
+                <input type="password" class="form-control" id="password" placeholder="Nhập mật khẩu" required>
+                <span id="passwordError" style="color: red;">(*)</span>
+            </div>
+            <button type="submit" class="btn mb-5">Đăng ký</button>
+        </form>
+    </div>
+<script src="../js/DK.js"></script>
+</body>
+</html>

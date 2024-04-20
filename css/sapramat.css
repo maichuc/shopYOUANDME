@@ -1,0 +1,28 @@
+
+
+
+.GTbst{
+    font-size:20px ;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.GTbst h2{
+
+    text-align: center;
+    margin: 50px;
+    box-shadow: 20px 20px 34px rgba(7, 42, 7, 0.403);
+    background-color: rgba(66, 4, 4, 0.944)
+}
+h2,
+.GTbst img{
+
+
+    box-shadow: 20px 20px 34px;
+    border-radius: 20px;
+    margin: 30px;
+ 
+}
+.bstimg1{
+    justify-content: space-between;
+}

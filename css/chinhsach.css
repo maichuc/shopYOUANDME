@@ -1,0 +1,25 @@
+
+.GTbst{
+    font-size:20px ;
+    margin: 0px;
+    padding: 0px;
+
+}
+.GTbst h2{
+text-align: center;
+    margin: 50px;
+    box-shadow: 20px 20px 34px rgba(7, 42, 7, 0.403);
+   
+}
+h2{
+    box-shadow: 20px 20px 34px;
+    border-radius: 20px;
+    margin: 30px;
+ 
+}
+h5{
+    padding: 20px;
+}
+h4{
+    font-weight: bold;
+}

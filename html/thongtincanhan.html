@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin cá nhân</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap-4.0.0-dist (1)/css/bootstrap.min.css">
+    <script src="../bootstrap-4.0.0-dist (1)/js/jquery-3.6.0.min.js"></script>
+    <script src="../bootstrap-4.0.0-dist (1)/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&family=Ephesis&family=Roboto:wght@300&family=Smooch+Sans:wght@100;200;400&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body style="background-color: #5a0c05;">
+    <div class="container" style="width: 500px; margin-top:8%;">
+        <h2 class="text-center mb-4 tenform">Thông Tin Cá Nhân</h2>
+        <form id="userInfoForm">
+            <div class="form-group">
+                <label for="ten">Tên người dùng:</label>
+                <input type="text" class="form-control" id="ten" readonly>
+            </div>
+
+            <div class="form-group">
+                <label for="ngaysinh">Ngày sinh:</label>
+                <input type="date" class="form-control" id="ngaysinh">
+                <span id="tbBday" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="sdt">Số điện thoại:</label>
+                <input type="text" class="form-control" id="sdt" readonly>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" class="form-control" id="email" readonly>
+            </div>
+
+            <h2 style="text-align: center;">Thông Tin Nhận Hàng</h2>
+
+            <div class="form-group">
+                <label for="ten">Tên người nhận:</label>
+                <input type="text" class="form-control" id="tennguoinhan">
+                <span id="errtennhanhang" style="color: red;">(*)</span>
+            </div>
+            <div class="form-group">
+                <label for="sdt">Số điện thoại người nhận:</label>
+                <input type="text" class="form-control" id="sdtnguoinhan">
+                <span id="tbsdt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="diachi">Địa chỉ nhận hàng:</label>
+                <input type="text" class="form-control" id="diachi">
+                <span id="errnhanhang" style="color: red;">(*)</span>
+            </div>
+            <div class="form-group">
+                <label for="thanhtoan">Phương thức thanh toán:</label>
+                <div>
+
+                    <input type="radio" name="thanhtoan" id="thanhtoanTM" value="thanhtoantm" checked>Tiền mặt
+                    <input type="radio" name="thanhtoan" id="thanhtoanCK" value="thanhtoanck">Chuyển khoản
+                </div>
+            </div>
+            <button type="button" class="btn mb-3" id="updateBtn">Cập nhật</button>
+            <button type="button" class="btn btn-info mb-3" id="homeBtn">Về trang home</button>
+        </form>
+    </div>
+
+    <script src="../js/thongtincanhan.js"></script>
+</body>
+
+</html>

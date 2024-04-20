@@ -1,0 +1,61 @@
+ /* cursor: pointer; cho một phần tử, 
+    con trỏ chuột sẽ thay đổi thành hình mũi 
+    tên (hoặc một biểu tượng khác phù hợp với việc tương tác) */
+
+
+/* Định dạng cho sản phẩm trong giỏ hàng */
+.cart-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr; /* Chia làm 3 cột, cột tên chiếm 2/3, số lượng và đơn giá chiếm 1/3 mỗi cột */
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .item-name {
+    font-weight: bold;
+    word-wrap: break-word;
+  }
+  
+  .item-quantity,
+  .item-price,
+  .item-subtotal {
+    margin-top: 5px;
+  }
+  .bi-trash-fill{
+    color: rgb(120, 21, 21);
+  }
+  .remove-item {
+    width: 50px;
+    background-color: white;
+    color: rgb(120, 21, 21);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  /* Định dạng cho giỏ hàng */
+  #cartModal {
+    max-width: 100%;
+  }
+  
+  .cart-details-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-details {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Tổng số sản phẩm và tổng giá tiền */
+  #total-items,
+  #total-price {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
